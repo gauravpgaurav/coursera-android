@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ModernArtUI</string>
+    <string name="infoMenu">More Information</string>
+    <string name="infoMessage1">Inspired by the works of artists such as Piet Mondrian</string>
+    <string name="infoMessage2">Click below to learn more!</string>
+    <string name="visitButton">Visit MOMA</string>
+    <string name="notNowButton">Not Now</string>
+    <string name="urlMOMA">https://www.moma.org</string>
+    <string name="urlMOMA_PIET">https://www.moma.org/calendar/exhibitions/470</string>
+
+</resources>

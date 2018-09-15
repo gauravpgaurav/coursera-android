@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:stretchColumns="0,1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingBottom="4dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="0dp"
+                android:paddingTop="4dp">
+
+                <View
+                    android:id="@+id/Lbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_dark" />
+
+                <View
+                    android:id="@+id/Lbox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingBottom="4dp"
+                android:paddingEnd="4dp"
+                android:paddingStart="4dp"
+                android:paddingTop="4dp">
+
+                <View
+                    android:id="@+id/Rbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_red_light" />
+
+                <View
+                    android:id="@+id/Rbox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white" />
+
+                <View
+                    android:id="@+id/Rbox3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_light" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <SeekBar
+                android:id="@+id/colorSeeker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:background="@android:color/white" />
+        </TableRow>
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
